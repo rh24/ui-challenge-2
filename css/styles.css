@@ -99,3 +99,16 @@ fieldset {
 #default {
   display: none;
 }
+
+input[type="text"] {
+  text-align: left;
+}
+
+#submit {
+  padding: 10px 20px 10px 20px;
+}
+
+#submit:hover {
+  background-color: rgb(74, 74, 74);
+  color: white;
+}
