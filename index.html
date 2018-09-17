@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Page Title</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
   <link rel="stylesheet" type="text/css" href="css/styles.css" />
   <script src="js/main.js"></script>
 </head>
@@ -29,27 +30,23 @@
     <div>
       <select name="select box">
         <option disabled selected value id="default">please select an option...</option>
-        <option value="option 1">option 1</option>
-        <option value="option 2">option 2</option>
-        <option value="option 3">option 3</option>
-        <option value="option 4">option 4</option>
+        <option value="option 1" class="odd">option 1</option>
+        <option value="option 2" class="even">option 2</option>
+        <option value="option 3" class="odd">option 3</option>
+        <option value="option 4" class="even">option 4</option>
       </select>
     </div>
     <div>
       <label><span>checkbox</span></label>
       <div class="unchecked"><input type="checkbox" name="" id="unchecked"></div>
       <div class="checked"><input type="checkbox" name="" id="checked"></div>
-      <!-- <input type="checkbox" id="c1" name="cc" />
-      <label for="c1">Check Box 1</label>
-      <input type="checkbox" id="c1" name="cc" />
-      <label for="c2">Check Box 1</label> -->
     </div>
     <div>
-      <div>
-        <label><span>radio</span></label>
-      </div>
-      <input type="radio" name="" id="" class="unchecked-radio">
-      <input type="radio" name="" id="" class="checked-radio">
+      <label><span>radio</span></label>
+      <fieldset id="radio-buttons">
+        <div class="unchecked-radio"><input type="radio" name="" id="unchecked-radio" /></div>
+        <div class="checked-radio"><input type="radio" name="" id="checked-radio" /></div>
+      </fieldset>
     </div>
     <div>
       <div>
@@ -59,10 +56,6 @@
       <input type="submit" name="" id="" class="submit">
     </div>
   </form>
-
-  <div id="test">
-
-  </div>
 </body>
 
 </html>

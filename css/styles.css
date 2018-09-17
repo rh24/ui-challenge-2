@@ -78,3 +78,7 @@ select option.even {
 select option.odd {
   background: rgb(216, 216, 216);
 }
+
+fieldset {
+  border: none;
+}
