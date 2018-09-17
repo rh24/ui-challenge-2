@@ -71,14 +71,21 @@ input[type="radio"] {
   margin-bottom: 30px;
 }
 
-select option.even {
+select {
+  style: none;
+}
+select option{
   background: rgb(155, 155, 155);	
 }
 
-select option.odd {
+/* select option.odd {
   background: rgb(216, 216, 216);
-}
+} */
 
 fieldset {
   border: none;
+}
+
+#text-input-validation-error {
+  border-color: red;
 }
