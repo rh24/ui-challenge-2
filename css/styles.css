@@ -71,7 +71,7 @@ input[type="radio"] {
   margin-bottom: 30px;
 }
 
-select option{
+select option {
   background: rgb(155, 155, 155);	
 }
 
@@ -84,7 +84,7 @@ fieldset {
 }
 
 #text-input-validation-error {
-  border-color: red;
+  border: 1px solid red;
 }
 
 #default {
