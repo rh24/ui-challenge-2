@@ -11,4 +11,10 @@ $(document).ready(function () {
   $('form').on('submit', (e) => {
     e.preventDefault();
   });
+
+  $('.unchecked-radio').on('click', function () {
+    console.log($(this));
+    $(this).toggleClass('checked-radio');
+    $(this).siblings().removeClass('checked-radio').addClass('unchecked-radio');
+  });
 });

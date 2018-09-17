@@ -105,3 +105,14 @@ input[type="text"] {
   background-color: rgb(74, 74, 74);
   color: white;
 }
+
+.error {
+  margin-top: 2px;
+  color: red;
+  font-size: .7em;
+  text-align: right;
+}
+
+input[type="text"] {
+  width: 400px;
+}
