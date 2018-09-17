@@ -12,53 +12,55 @@
 </head>
 
 <body>
-  <form>
-    <div class="text-inputs">
+  <div class="center">
+    <form>
+      <div class="text-inputs">
+        <div>
+          <div>
+            <label for="text-input">text input</label>
+          </div>
+          <input type="text" name="text-input" id="" placeholder="placeholder text" />
+        </div>
+        <div>
+          <div>
+            <label for="text-input-validation-error">text input w/ validation error</label>
+          </div>
+          <input type="text" name="text-input-validation-error" id="text-input-validation-error"" placeholder="
+            placeholder text" />
+        </div>
+      </div>
+      <div>
+        <select id="select-box" name="select box">
+          <option disabled selected value id="default">please select an option...</option>
+          <div class="odd">
+            <option value="option 1" class="odd">option 1</option>
+          </div>
+          <option value="option 2" class="even">option 2</option>
+          <option value="option 3" class="odd">option 3</option>
+          <option value="option 4" class="even">option 4</option>
+        </select>
+      </div>
+      <div>
+        <label><span>checkbox</span></label>
+        <div class="unchecked"><input type="checkbox" name="" id="unchecked"></div>
+        <div class="checked"><input type="checkbox" name="" id="checked"></div>
+      </div>
+      <div>
+        <label><span>radio</span></label>
+        <fieldset id="radio-buttons">
+          <div class="unchecked-radio"><input type="radio" name="" id="unchecked-radio" /></div>
+          <div class="checked-radio"><input type="radio" name="" id="checked-radio" /></div>
+        </fieldset>
+      </div>
       <div>
         <div>
-          <label for="text-input">text input</label>
+          <label>buttons</label>
         </div>
-        <input type="text" name="text-input" id="" placeholder="placeholder text" />
+        <input type="submit" value="submit" id="" class="submit">
+        <input type="submit" value="submit" id="" class="submit">
       </div>
-      <div>
-        <div>
-          <label for="text-input-validation-error">text input w/ validation error</label>
-        </div>
-        <input type="text" name="text-input-validation-error" id="text-input-validation-error"" placeholder="
-          placeholder text" />
-      </div>
-    </div>
-    <div>
-      <select id="select-box" name="select box">
-        <option disabled selected value id="default">please select an option...</option>
-        <div class="odd">
-          <option value="option 1" class="odd">option 1</option>
-        </div>
-        <option value="option 2" class="even">option 2</option>
-        <option value="option 3" class="odd">option 3</option>
-        <option value="option 4" class="even">option 4</option>
-      </select>
-    </div>
-    <div>
-      <label><span>checkbox</span></label>
-      <div class="unchecked"><input type="checkbox" name="" id="unchecked"></div>
-      <div class="checked"><input type="checkbox" name="" id="checked"></div>
-    </div>
-    <div>
-      <label><span>radio</span></label>
-      <fieldset id="radio-buttons">
-        <div class="unchecked-radio"><input type="radio" name="" id="unchecked-radio" /></div>
-        <div class="checked-radio"><input type="radio" name="" id="checked-radio" /></div>
-      </fieldset>
-    </div>
-    <div>
-      <div>
-        <label>buttons</label>
-      </div>
-      <input type="submit" value="submit" id="" class="submit">
-      <input type="submit" value="submit" id="" class="submit">
-    </div>
-  </form>
+    </form>
+  </div>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
   <script src="js/main.js"></script>
