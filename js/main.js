@@ -8,4 +8,7 @@ $(document).ready(function () {
     $(this).toggleClass('checked');
   });
 
+  $('form').on('submit', (e) => {
+    e.preventDefault();
+  });
 });
