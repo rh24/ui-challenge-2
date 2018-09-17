@@ -8,7 +8,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/normalize.css" />
   <link rel="stylesheet" type="text/css" href="css/styles.css" />
-  <script src="js/main.js"></script>
 </head>
 
 <body>
@@ -29,9 +28,11 @@
       </div>
     </div>
     <div>
-      <select name="select box">
+      <select id="select-box" name="select box">
         <option disabled selected value id="default">please select an option...</option>
-        <option value="option 1" class="odd">option 1</option>
+        <div class="odd">
+          <option value="option 1" class="odd">option 1</option>
+        </div>
         <option value="option 2" class="even">option 2</option>
         <option value="option 3" class="odd">option 3</option>
         <option value="option 4" class="even">option 4</option>
@@ -57,6 +58,9 @@
       <input type="submit" name="" id="" class="submit">
     </div>
   </form>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
