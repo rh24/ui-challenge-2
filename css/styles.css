@@ -4,10 +4,14 @@ form {
 
 label {
   display: block;
+  margin: 10px;
+  margin-bottom: 2px;
+  margin-left: 0;
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
 }
 
 .unchecked, .checked, .unchecked-radio, .checked-radio, .up-arrow, .down-arrow {
