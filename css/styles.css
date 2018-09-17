@@ -19,13 +19,7 @@ body {
   background: url('./form-elements-sprite.png');
   background-repeat: no-repeat;
   background-position: 0 0;
-  z-index: 1;
-}
-
-#test {
-  background: url('./form-elements-sprite.png');
-  width: 500px;
-  height: 500px;
+  background-size: 50vw;
 }
 
 input[type="checkbox"] {
@@ -34,9 +28,9 @@ input[type="checkbox"] {
 
 .unchecked {
   display: inline-block;
-  background-position: -157px -239px; 
-  width: 163px;
-  height: 161px;
+  background-position: -157vw -239vw; 
+  width: 163vw;
+  height: 161vw;
 }
 
 .checked {
@@ -105,7 +99,7 @@ input[type="text"] {
 }
 
 #submit {
-  padding: 10px 20px 10px 20px;
+  padding: 10px 30px 10px 30px;
 }
 
 #submit:hover {

@@ -4,5 +4,7 @@ console.log('js is linked');
 
 $(document).ready(function () {
 
-  $('#submit');
+  $('checkbox').on('click', function () {
+    $(this).toggleClass('checked');
+  });
 });
