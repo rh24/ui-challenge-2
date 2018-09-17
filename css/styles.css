@@ -6,6 +6,10 @@ label {
   display: block;
 }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .unchecked, .checked, .unchecked-radio, .checked-radio, .up-arrow, .down-arrow {
   background: url('./form-elements-sprite.png');
   background-repeat: no-repeat;
