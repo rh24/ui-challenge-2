@@ -12,17 +12,19 @@
 
 <body>
   <form>
-    <div>
+    <div class="text-inputs">
       <div>
-        <label for="text-input">text input</label>
+        <div>
+          <label for="text-input">text input</label>
+        </div>
+        <input type="text" name="text-input" id="" placeholder="placeholder text" />
       </div>
-      <input type="text" name="text-input" id="" placeholder="placeholder text" />
-    </div>
-    <div>
       <div>
-        <label for="text-input-validation-error">text input w/ validation error</label>
+        <div>
+          <label for="text-input-validation-error">text input w/ validation error</label>
+        </div>
+        <input type="text" name="text-input-validation-error" id="" placeholder="placeholder text" />
       </div>
-      <input type="text" name="text-input-validation-error" id="" placeholder="placeholder text" />
     </div>
     <div>
       <select name="select box">
@@ -34,18 +36,20 @@
       </select>
     </div>
     <div>
-      <div>
-        <label>checkbox</label>
-      </div>
-      <input type="checkbox" name="" id="" class="checkbox">
-      <input type="checkbox" name="" id="" class="checkbox">
+      <label><span>checkbox</span></label>
+      <div class="unchecked"><input type="checkbox" name="" id="unchecked"></div>
+      <div class="checked"><input type="checkbox" name="" id="checked"></div>
+      <!-- <input type="checkbox" id="c1" name="cc" />
+      <label for="c1">Check Box 1</label>
+      <input type="checkbox" id="c1" name="cc" />
+      <label for="c2">Check Box 1</label> -->
     </div>
     <div>
       <div>
-        <label>radio</label>
+        <label><span>radio</span></label>
       </div>
-      <input type="radio" name="" id="" class="radio">
-      <input type="radio" name="" id="" class="radio">
+      <input type="radio" name="" id="" class="unchecked-radio">
+      <input type="radio" name="" id="" class="checked-radio">
     </div>
     <div>
       <div>
@@ -55,6 +59,10 @@
       <input type="submit" name="" id="" class="submit">
     </div>
   </form>
+
+  <div id="test">
+
+  </div>
 </body>
 
 </html>
