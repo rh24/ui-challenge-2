@@ -1,0 +1,8 @@
+.checkbox, .radio, .submit {
+  background-image: url('../sprites/form-elements-sprite.png');
+  background-repeat: no-repeat;
+}
+
+.checkbox {
+  
+}
