@@ -5,6 +5,7 @@ form {
 label {
   display: block;
 }
+
 .unchecked, .checked, .unchecked-radio, .checked-radio, .up-arrow, .down-arrow {
   background: url('./form-elements-sprite.png');
   background-repeat: no-repeat;
@@ -13,15 +14,9 @@ label {
 }
 
 #test {
-    background: url('./form-elements-sprite.png');
-    width: 500px;
-    height: 500px;
-}
-
-.form-elements-sprite {
-  background-position: 0 0;
-  width: 1454px;
-  height: 642px;
+  background: url('./form-elements-sprite.png');
+  width: 500px;
+  height: 500px;
 }
 
 input[type="checkbox"] {
@@ -30,7 +25,6 @@ input[type="checkbox"] {
 
 .unchecked {
   display: inline-block;
-  background: url('./form-elements-sprite.png');
   background-position: -157px -239px; 
   width: 163px;
   height: 161px;
@@ -38,19 +32,24 @@ input[type="checkbox"] {
 
 .checked {
   display: inline-block;
-  background: url('./form-elements-sprite.png');
   background-position: -379px -239px; 
   width: 163px;
   height: 161px;
 }
 
+input[type="radio"] {
+  display: none;
+}
+
 .unchecked-radio {
+  display: inline-block;
   background-position: -582px -242px; 
   width: 168px;
   height: 167px;
 }
 
 .checked-radio {
+  display: inline-block;
   background-position: -812px -242px; 
   width: 168px;
   height: 167px;
@@ -70,4 +69,12 @@ input[type="checkbox"] {
 
 .text-inputs {
   margin-bottom: 30px;
+}
+
+select option.even {
+  background: rgb(155, 155, 155);	
+}
+
+select option.odd {
+  background: rgb(216, 216, 216);
 }
